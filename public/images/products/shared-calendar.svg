@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F5F5F7"/>
+  <rect x="250" y="140" width="300" height="220" rx="16" fill="#0071E3" opacity="0.12"/>
+  <rect x="280" y="180" width="60" height="60" rx="8" fill="#0071E3" opacity="0.3"/>
+  <rect x="360" y="180" width="60" height="60" rx="8" fill="#0071E3" opacity="0.2"/>
+  <rect x="440" y="180" width="60" height="60" rx="8" fill="#0071E3" opacity="0.25"/>
+  <rect x="280" y="260" width="60" height="60" rx="8" fill="#000" opacity="0.06"/>
+  <rect x="360" y="260" width="60" height="60" rx="8" fill="#0071E3" opacity="0.35"/>
+  <rect x="440" y="260" width="60" height="60" rx="8" fill="#000" opacity="0.06"/>
+  <text x="400" y="420" text-anchor="middle" fill="#86868B" font-family="system-ui, sans-serif" font-size="24">Shared Calendar</text>
+</svg>

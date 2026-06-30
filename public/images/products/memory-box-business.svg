@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F5F5F7"/>
+  <rect x="200" y="150" width="400" height="200" rx="16" fill="#0071E3" opacity="0.12"/>
+  <rect x="240" y="190" width="120" height="120" rx="12" fill="#0071E3" opacity="0.25"/>
+  <rect x="400" y="200" width="160" height="16" rx="8" fill="#0071E3" opacity="0.3"/>
+  <rect x="400" y="230" width="120" height="10" rx="5" fill="#86868B" opacity="0.4"/>
+  <text x="400" y="420" text-anchor="middle" fill="#86868B" font-family="system-ui, sans-serif" font-size="24">Memory Box Business</text>
+</svg>

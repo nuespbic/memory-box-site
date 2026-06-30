@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F5F5F7"/>
+  <rect x="220" y="130" width="360" height="240" rx="16" fill="#0071E3" opacity="0.12"/>
+  <rect x="260" y="170" width="280" height="40" rx="8" fill="#0071E3" opacity="0.2"/>
+  <rect x="260" y="230" width="280" height="40" rx="8" fill="#000" opacity="0.06"/>
+  <rect x="260" y="290" width="280" height="40" rx="8" fill="#000" opacity="0.06"/>
+  <text x="400" y="420" text-anchor="middle" fill="#86868B" font-family="system-ui, sans-serif" font-size="24">Shift</text>
+</svg>

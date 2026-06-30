@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="520" viewBox="0 0 240 520" fill="none">
+  <rect width="240" height="520" fill="#F5F5F7"/>
+  <rect x="20" y="60" width="200" height="380" rx="12" fill="#0071E3" opacity="0.12"/>
+  <rect x="40" y="100" width="160" height="12" rx="6" fill="#0071E3" opacity="0.3"/>
+  <rect x="40" y="130" width="120" height="8" rx="4" fill="#86868B" opacity="0.4"/>
+  <rect x="40" y="160" width="160" height="80" rx="8" fill="#0071E3" opacity="0.15"/>
+  <rect x="40" y="260" width="160" height="60" rx="8" fill="#000" opacity="0.06"/>
+  <rect x="40" y="340" width="160" height="60" rx="8" fill="#000" opacity="0.06"/>
+  <text x="120" y="460" text-anchor="middle" fill="#86868B" font-family="system-ui, sans-serif" font-size="13">Screenshot 1</text>
+</svg>
