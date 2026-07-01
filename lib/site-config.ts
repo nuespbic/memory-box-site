@@ -58,13 +58,13 @@ export const PHILOSOPHY = {
 } as const;
 
 export const COMPANY = {
-  name: "株式会社Memory Box",
+  name: "Memory Box",
   description: "人の毎日を少しだけ軽くするソフトウェアを開発しています。",
   businessItems: [
     "スマートフォンアプリ開発",
-    "業務支援システム開発",
+    "業務支援システムの企画・開発",
     "Webサイト制作",
-    "OCR、記録管理、通知支援システムの企画開発",
+    "OCR・記録管理・通知支援システムの企画・開発",
   ],
 } as const;
 

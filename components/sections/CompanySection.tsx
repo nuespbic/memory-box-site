@@ -8,23 +8,17 @@ export function CompanySection() {
       <div className="mx-auto max-w-2xl">
         <ScrollReveal>
           <h2 className="text-2xl font-medium tracking-tight text-foreground md:text-3xl">
-            Company
+            {COMPANY.name}
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={80}>
-          <p className="mt-10 text-lg font-medium text-foreground md:mt-12 md:text-xl">
-            {COMPANY.name}
-          </p>
-        </ScrollReveal>
-
-        <ScrollReveal delay={160}>
-          <p className="mt-6 text-base leading-relaxed text-mb-soft md:mt-8 md:text-lg md:leading-relaxed">
+          <p className="mt-10 text-base leading-relaxed text-mb-soft md:mt-12 md:text-lg md:leading-relaxed">
             {COMPANY.description}
           </p>
         </ScrollReveal>
 
-        <ScrollReveal delay={240}>
+        <ScrollReveal delay={160}>
           <div className="mt-12 md:mt-14">
             <h3 className="text-sm text-mb-muted">事業内容</h3>
             <ul className="mt-5 space-y-4 md:space-y-5">
