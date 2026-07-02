@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { BRAND, NAV_ITEMS } from "@/lib/site-config";
 
@@ -9,12 +10,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-mb-border bg-white/95">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6 md:h-16 md:px-8">
-        <a
-          href="#"
+        <Link
+          href="/"
           className="text-base font-medium tracking-tight text-foreground md:text-lg"
         >
           {BRAND.name}
-        </a>
+        </Link>
 
         <nav aria-label="メインナビゲーション" className="hidden md:block">
           <ul className="flex items-center gap-8">

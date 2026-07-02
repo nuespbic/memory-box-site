@@ -1,10 +1,11 @@
+import Link from "next/link";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SectionContainer } from "@/components/ui/SectionContainer";
 import { SUPPORT_LINKS } from "@/lib/site-config";
 
 export function SupportSection() {
   return (
-    <SectionContainer id="support" className="border-t border-mb-border">
+    <SectionContainer id="support" className="border-t border-mb-border pb-24 md:pb-32">
       <div className="mx-auto max-w-2xl">
         <ScrollReveal>
           <h2 className="text-2xl font-medium tracking-tight text-foreground md:text-3xl">
@@ -16,12 +17,12 @@ export function SupportSection() {
           {SUPPORT_LINKS.map((link, index) => (
             <li key={link.href}>
               <ScrollReveal delay={80 + index * 60}>
-                <a
+                <Link
                   href={link.href}
                   className="block py-5 text-base text-mb-soft md:py-6 md:text-lg"
                 >
                   {link.label}
-                </a>
+                </Link>
               </ScrollReveal>
             </li>
           ))}

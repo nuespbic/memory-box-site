@@ -22,8 +22,8 @@ export default function Home() {
         <ProductsSection />
         <PhilosophySection />
         <CompanySection />
-        <SupportSection />
         <PromiseSection />
+        <SupportSection />
       </main>
       <Footer />
     </>

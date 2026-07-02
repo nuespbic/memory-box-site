@@ -74,6 +74,14 @@ export const SUPPORT_LINKS = [
   { label: "お問い合わせ", href: "/contact" },
 ] as const;
 
+export const SUPPORT = {
+  email: "support@memorybox.app",
+  responseNote:
+    "内容を確認のうえ、通常3営業日以内にメールにて返信いたします。",
+} as const;
+
+export const LEGAL_UPDATED_AT = "2026年7月1日";
+
 export const DAY_STORY = [
   {
     time: "朝",
