@@ -75,7 +75,7 @@ export const SUPPORT_LINKS = [
 ] as const;
 
 export const SUPPORT = {
-  email: "support@memorybox.app",
+  email: "memorybox.support@gmail.com",
   responseNote:
     "内容を確認のうえ、通常3営業日以内にメールにて返信いたします。",
 } as const;
