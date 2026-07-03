@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/layout/LegalPageLayout";
 import { LegalSection } from "@/components/ui/LegalSection";
-import { BRAND, LEGAL_UPDATED_AT, SUPPORT } from "@/lib/site-config";
+import { LEGAL_UPDATED_AT, SUPPORT } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー | Memory Box",
@@ -14,8 +14,7 @@ export default function PrivacyPage() {
     <LegalPageLayout title="プライバシーポリシー" updatedAt={LEGAL_UPDATED_AT}>
       <LegalSection title="1. はじめに">
         <p>
-          {BRAND.companyName}（以下「当社」）は、{BRAND.name}
-          （以下「本アプリ」）におけるユーザーのプライバシーを尊重し、
+          Memory Box（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、
           個人情報およびデータを慎重に取り扱います。
           本ポリシーは、App Store 経由で提供する本アプリにおける情報の取り扱い方針を定めるものです。
         </p>
@@ -31,7 +30,7 @@ export default function PrivacyPage() {
       </LegalSection>
 
       <LegalSection title="3. 収集する情報">
-        <p>当社は、本アプリの提供に必要な最小限の情報のみを取り扱います。</p>
+        <p>本アプリの提供に必要な最小限の情報のみを取り扱います。</p>
         <ul className="list-disc space-y-2 pl-5">
           <li>
             ユーザーが本アプリ上で登録・保存する情報（契約情報、保証書、写真、メモ等）
@@ -42,7 +41,7 @@ export default function PrivacyPage() {
           </li>
         </ul>
         <p>
-          当社は、本アプリの基本機能のために、ユーザーの位置情報、連絡先、
+          本アプリの基本機能のために、ユーザーの位置情報、連絡先、
           広告識別子等を取得することはありません。
         </p>
       </LegalSection>
@@ -59,7 +58,7 @@ export default function PrivacyPage() {
 
       <LegalSection title="5. 第三者提供">
         <p>
-          当社は、ユーザーの個人情報および記録データを、ユーザーの同意なく
+          ユーザーの個人情報および記録データを、ユーザーの同意なく
           第三者に販売または提供することはありません。
           ただし、法令に基づく開示請求等、正当な理由がある場合はこの限りではありません。
         </p>
@@ -84,7 +83,7 @@ export default function PrivacyPage() {
 
       <LegalSection title="8. 安全管理">
         <p>
-          当社は、個人情報および記録データの漏えい、滅失、改ざん等を防止するため、
+          個人情報および記録データの漏えい、滅失、改ざん等を防止するため、
           合理的な安全管理措置を講じます。
         </p>
       </LegalSection>
@@ -97,7 +96,7 @@ export default function PrivacyPage() {
 
       <LegalSection title="10. ポリシーの変更">
         <p>
-          当社は、必要に応じて本ポリシーを変更することがあります。
+          必要に応じて本ポリシーを変更することがあります。
           重要な変更がある場合は、本サイト上での掲示等によりお知らせします。
         </p>
       </LegalSection>
