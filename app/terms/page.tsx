@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/layout/LegalPageLayout";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { LEGAL_UPDATED_AT } from "@/lib/site-config";
+import { OPERATOR } from "@/lib/operator";
 
 export const metadata: Metadata = {
   title: "利用規約 | Memory Box",
@@ -13,8 +14,8 @@ export default function TermsPage() {
     <LegalPageLayout title="利用規約" updatedAt={LEGAL_UPDATED_AT}>
       <LegalSection title="第1条（適用）">
         <p>
-          本利用規約（以下「本規約」）は、Memory Box
-          が提供するアプリおよび関連サービス（以下「本サービス」）の利用条件を定めるものです。
+          本利用規約（以下「本規約」）は、Memory Box（運営者：
+          {OPERATOR.legalLabel}）が提供するアプリおよび関連サービス（以下「本サービス」）の利用条件を定めるものです。
           ユーザーは、本サービスを利用することにより、本規約に同意したものとみなされます。
         </p>
       </LegalSection>
@@ -71,8 +72,8 @@ export default function TermsPage() {
       <LegalSection title="第8条（準拠法・管轄）">
         <p>
           本規約は日本法に準拠します。
-          本サービスに関して紛争が生じた場合、Memory Box
-          運営者の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。
+          本サービスに関して紛争が生じた場合、運営者（
+          {OPERATOR.legalLabel}）の所在地を管轄する裁判所を第一審の専属的合意管轄裁判所とします。
         </p>
       </LegalSection>
 

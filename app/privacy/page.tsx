@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { LegalPageLayout } from "@/components/layout/LegalPageLayout";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { LEGAL_UPDATED_AT, SUPPORT } from "@/lib/site-config";
+import { OPERATOR } from "@/lib/operator";
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー | Memory Box",
@@ -14,7 +15,8 @@ export default function PrivacyPage() {
     <LegalPageLayout title="プライバシーポリシー" updatedAt={LEGAL_UPDATED_AT}>
       <LegalSection title="1. はじめに">
         <p>
-          Memory Box（以下「本アプリ」）は、ユーザーのプライバシーを尊重し、
+          Memory Box（運営者：{OPERATOR.legalLabel}、以下「本アプリ」）は、
+          ユーザーのプライバシーを尊重し、
           個人情報およびデータを慎重に取り扱います。
           本ポリシーは、App Store 経由で提供する本アプリにおける情報の取り扱い方針を定めるものです。
         </p>

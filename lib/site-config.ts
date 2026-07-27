@@ -1,15 +1,14 @@
 export const BRAND = {
   name: "Memory Box",
-  companyName: "株式会社Memory Box",
   blue: "#0071E3",
   tagline: "記憶に、居場所を。",
 } as const;
 
 export const NAV_ITEMS = [
-  { label: "Services", href: "#services" },
-  { label: "Philosophy", href: "#philosophy" },
-  { label: "Company", href: "#company" },
-  { label: "Support", href: "#support" },
+  { label: "Services", href: "/#services" },
+  { label: "Philosophy", href: "/#philosophy" },
+  { label: "About", href: "/about" },
+  { label: "Support", href: "/#support" },
 ] as const;
 
 export const HERO = {
@@ -60,6 +59,8 @@ export const PHILOSOPHY = {
 export const COMPANY = {
   name: "Memory Box",
   description: "人の毎日を少しだけ軽くするソフトウェアを開発しています。",
+  operatorSummary:
+    "Memory Boxおよび関連アプリは、若杉燎が個人で企画・開発・運営しています。",
   businessItems: [
     "スマートフォンアプリ開発",
     "業務支援システムの企画・開発",
@@ -69,6 +70,7 @@ export const COMPANY = {
 } as const;
 
 export const SUPPORT_LINKS = [
+  { label: "私たちについて", href: "/about" },
   { label: "利用規約", href: "/terms" },
   { label: "プライバシーポリシー", href: "/privacy" },
   { label: "お問い合わせ", href: "/contact" },
@@ -80,7 +82,7 @@ export const SUPPORT = {
     "内容を確認のうえ、通常3営業日以内にメールにて返信いたします。",
 } as const;
 
-export const LEGAL_UPDATED_AT = "2026年7月1日";
+export const LEGAL_UPDATED_AT = "2026年7月28日";
 
 export const DAY_STORY = [
   {

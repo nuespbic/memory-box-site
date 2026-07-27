@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SectionContainer } from "@/components/ui/SectionContainer";
 import { COMPANY } from "@/lib/site-config";
@@ -15,6 +16,20 @@ export function CompanySection() {
         <ScrollReveal delay={80}>
           <p className="mt-10 text-base leading-relaxed text-mb-soft md:mt-12 md:text-lg md:leading-relaxed">
             {COMPANY.description}
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={120}>
+          <p className="mt-6 text-base leading-relaxed text-mb-soft md:mt-8 md:text-lg md:leading-relaxed">
+            {COMPANY.operatorSummary}
+          </p>
+          <p className="mt-6">
+            <Link
+              href="/about"
+              className="text-sm text-memory-box-blue underline-offset-2 hover:underline md:text-base"
+            >
+              運営方針・私たちについて
+            </Link>
           </p>
         </ScrollReveal>
 
