@@ -3,7 +3,7 @@ import { LegalPageLayout } from "@/components/layout/LegalPageLayout";
 import { LegalSection } from "@/components/ui/LegalSection";
 import { SupportEmailLink } from "@/components/ui/SupportEmailLink";
 import { SHIFT_NOTE_PRIVACY_UPDATED_AT } from "@/lib/apps-catalog";
-import { OPERATOR } from "@/lib/operator";
+import { APP_DEVELOPER, APP_OPERATION } from "@/lib/operator";
 
 /**
  * App Store 提出前: 広告 SDK・StoreKit・保存/同期方式の表現を、
@@ -27,7 +27,8 @@ export default function ShiftNotePrivacyPage() {
     >
       <LegalSection title="1. はじめに">
         <p>
-          シフトノート（運営者：{OPERATOR.legalLabel}、以下「本アプリ」）は、
+          シフトノート（運営：{APP_OPERATION.label}、開発：{APP_DEVELOPER.legalLabel}
+          、以下「本アプリ」）は、
           利用者のプライバシーを尊重し、入力された情報を慎重に取り扱います。
           本ポリシーは、App Store 経由で提供する本アプリにおける情報の取り扱い方針を定めるものです。
         </p>
@@ -196,7 +197,9 @@ export default function ShiftNotePrivacyPage() {
       <LegalSection title="13. お問い合わせ">
         <p>本ポリシーに関するお問い合わせは、以下までご連絡ください。</p>
         <p>
-          運営者：{OPERATOR.legalLabel}
+          運営：{APP_OPERATION.label}
+          <br />
+          開発：{APP_DEVELOPER.legalLabel}
           <br />
           メール：<SupportEmailLink />
         </p>

@@ -17,7 +17,8 @@ export const HERO = {
   body: "Memory Boxは、\n記憶を安心して預けられる場所をつくります。",
   heroScreenshot: "/screenshots/screenshot-1.png",
   heroScreenshotAlt: "Memory Box ホーム画面",
-  appStoreUrl: "https://apps.apple.com/",
+  appStoreUrl:
+    "https://apps.apple.com/jp/app/memory-box-%E3%83%AD%E3%82%B9%E3%82%BC%E3%83%AD/id6786030991",
 } as const;
 
 export const PRODUCTS = [

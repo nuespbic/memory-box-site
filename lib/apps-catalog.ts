@@ -1,4 +1,4 @@
-import { OPERATOR } from "@/lib/operator";
+import { APP_DEVELOPER, APP_OPERATION, MEMORY_BOX_PRODUCT_NAME } from "@/lib/operator";
 import { SUPPORT } from "@/lib/site-config";
 
 export type AppStatus =
@@ -26,20 +26,22 @@ export type AppCatalogEntry = {
   termsHref?: string;
   appStoreHref?: string;
   pricingModel?: string;
-  operator: typeof OPERATOR.legalLabel;
+  operation: typeof APP_OPERATION.label;
+  developer: typeof APP_DEVELOPER.legalLabel;
   updatedAt?: string;
 };
 
 export const APPS_CATALOG: AppCatalogEntry[] = [
   {
     slug: "memory-box",
-    name: "Memory Box（ロスゼロ）",
+    name: MEMORY_BOX_PRODUCT_NAME,
     status: "published",
     description:
       "保証期限、契約、保険、車、家、持ち物など、忘れると困る情報を記録し、必要なときに取り出すための個人向けアプリ。",
     homeHref: "/",
     privacyHref: "/privacy",
-    operator: OPERATOR.legalLabel,
+    operation: APP_OPERATION.label,
+    developer: APP_DEVELOPER.legalLabel,
   },
   {
     slug: "shift-note",
@@ -51,7 +53,8 @@ export const APPS_CATALOG: AppCatalogEntry[] = [
     privacyHref: "/privacy/shift-note",
     termsHref: "/terms/shift-note",
     pricingModel: "freemium-subscription",
-    operator: OPERATOR.legalLabel,
+    operation: APP_OPERATION.label,
+    developer: APP_DEVELOPER.legalLabel,
     updatedAt: "2026年7月29日",
   },
   {
@@ -60,7 +63,8 @@ export const APPS_CATALOG: AppCatalogEntry[] = [
     status: "developing-trial",
     description:
       "会社の対応履歴や判断の経緯を残し、担当者が変わっても過去の流れを確認できる業務ソフト。",
-    operator: OPERATOR.legalLabel,
+    operation: APP_OPERATION.label,
+    developer: APP_DEVELOPER.legalLabel,
   },
   {
     slug: "family-calendar",
@@ -68,7 +72,8 @@ export const APPS_CATALOG: AppCatalogEntry[] = [
     status: "developing",
     description:
       "家族の予定を、毎回LINEや口頭で聞き直さなくても確認できる共有カレンダー。",
-    operator: OPERATOR.legalLabel,
+    operation: APP_OPERATION.label,
+    developer: APP_DEVELOPER.legalLabel,
   },
 ];
 

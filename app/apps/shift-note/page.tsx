@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { AppPageLayout } from "@/components/layout/AppPageLayout";
+import { AppStewardshipInfo } from "@/components/ui/AppStewardshipInfo";
 import { StatusBadge } from "@/components/ui/StatusBadge";
 import { SHIFT_NOTE_APP } from "@/lib/apps-catalog";
 import {
@@ -141,6 +142,13 @@ export default function ShiftNoteAppPage() {
         <p className="mt-4 text-base leading-relaxed text-mb-soft md:text-lg md:leading-relaxed">
           {SHIFT_NOTE_LEGAL_NOTE}
         </p>
+      </section>
+
+      <section>
+        <h2 className="text-lg font-medium text-foreground md:text-xl">
+          運営・開発
+        </h2>
+        <AppStewardshipInfo className="mt-4" />
       </section>
 
       <section className="border-t border-mb-border pt-10">

@@ -10,6 +10,24 @@ export const OPERATOR = {
   role: "企画・開発・運営",
 } as const;
 
+/** Memory Box（ロスゼロ）の正式名称 — 関連アプリの運営主体表記に使用 */
+export const MEMORY_BOX_PRODUCT_NAME = "Memory Box（ロスゼロ）" as const;
+
+/**
+ * 関連アプリ共通の運営主体（Memory Box（ロスゼロ）と同一）
+ * legalLabel は既存 Memory Box 法的ページ（/privacy 等）の運営者表記
+ */
+export const APP_OPERATION = {
+  label: MEMORY_BOX_PRODUCT_NAME,
+  legalLabel: OPERATOR.legalLabel,
+} as const;
+
+/** 関連アプリ共通の開発者 */
+export const APP_DEVELOPER = {
+  individualName: OPERATOR.individualName,
+  legalLabel: OPERATOR.legalLabel,
+} as const;
+
 export const ABOUT = {
   title: "私たちについて",
   updatedAt: "2026年7月28日",
@@ -30,25 +48,25 @@ export type OperatorInfo = {
 
 /** アプリごとの運営・販売主体（販売開始時に更新） */
 export const APP_OPERATORS: Record<string, OperatorInfo> = {
-  "Memory Box": {
+  [MEMORY_BOX_PRODUCT_NAME]: {
     type: "individual",
     name: OPERATOR.individualName,
-    label: OPERATOR.legalLabel,
+    label: APP_OPERATION.legalLabel,
   },
   "Memory Box Business": {
     type: "individual",
     name: OPERATOR.individualName,
-    label: OPERATOR.legalLabel,
+    label: APP_OPERATION.legalLabel,
   },
   "Shared Calendar": {
     type: "individual",
     name: OPERATOR.individualName,
-    label: OPERATOR.legalLabel,
+    label: APP_OPERATION.legalLabel,
   },
   Shift: {
     type: "individual",
     name: OPERATOR.individualName,
-    label: OPERATOR.legalLabel,
+    label: APP_OPERATION.legalLabel,
   },
 };
 
