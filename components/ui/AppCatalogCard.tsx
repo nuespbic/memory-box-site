@@ -41,6 +41,16 @@ export function AppCatalogCard({ app }: AppCatalogCardProps) {
             </Link>
           </li>
         ) : null}
+        {app.termsHref ? (
+          <li>
+            <Link
+              href={app.termsHref}
+              className="text-memory-box-blue underline-offset-2 hover:underline"
+            >
+              利用規約
+            </Link>
+          </li>
+        ) : null}
       </ul>
     </article>
   );

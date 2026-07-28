@@ -37,11 +37,13 @@ export const PRODUCTS = [
     comingSoon: true,
   },
   {
-    name: "Shared Calendar",
-    tagline: "予定をもっと自然に共有する",
-    description: "家族や身近な人と、予定をやさしく共有。",
+    name: "Family Calendar",
+    tagline: "家族の予定を、ひとつのカレンダーに。",
+    description:
+      "家族の予定を色分けして管理し、テキスト・画像・PDFで共有できるカレンダーアプリ。",
     image: "/images/products/shared-calendar.svg",
     comingSoon: true,
+    comingSoonLabel: "App Store審査提出準備中",
   },
   {
     name: "シフトノート",
