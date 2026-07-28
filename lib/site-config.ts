@@ -71,6 +71,7 @@ export const COMPANY = {
 
 export const SUPPORT_LINKS = [
   { label: "私たちについて", href: "/about" },
+  { label: "アプリ・製品一覧", href: "/apps" },
   { label: "利用規約", href: "/terms" },
   { label: "プライバシーポリシー", href: "/privacy" },
   { label: "お問い合わせ", href: "/contact" },
