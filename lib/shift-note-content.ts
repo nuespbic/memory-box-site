@@ -61,6 +61,3 @@ export const SHIFT_NOTE_PREMIUM_DATA_NOTE =
 
 export const SHIFT_NOTE_LEGAL_NOTE =
   "シフトノートは、税金、扶養、社会保険、労働法その他の法的判定や助言を行うアプリではありません。時給、交通費、勤務時間、予算など、利用者が入力した情報に基づく単純集計を行います。";
-
-export const SHIFT_NOTE_TERMS_NOTE =
-  "利用規約：シフトノート専用の利用規約（/terms/shift-note）は、公開前に掲載予定です。現在の /terms は Memory Box（ロスゼロ）向けです。";

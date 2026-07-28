@@ -13,7 +13,6 @@ import {
   SHIFT_NOTE_PREMIUM_DATA_NOTE,
   SHIFT_NOTE_PREMIUM_FEATURES,
   SHIFT_NOTE_PREMIUM_PRICE,
-  SHIFT_NOTE_TERMS_NOTE,
   type ShiftNoteFeature,
 } from "@/lib/shift-note-content";
 
@@ -157,6 +156,14 @@ export default function ShiftNoteAppPage() {
           <li className="text-mb-muted">App Store：公開準備中</li>
           <li>
             <Link
+              href="/terms/shift-note"
+              className="text-memory-box-blue underline-offset-2 hover:underline"
+            >
+              利用規約
+            </Link>
+          </li>
+          <li>
+            <Link
               href="/privacy/shift-note"
               className="text-memory-box-blue underline-offset-2 hover:underline"
             >
@@ -168,13 +175,18 @@ export default function ShiftNoteAppPage() {
               href="/contact"
               className="text-memory-box-blue underline-offset-2 hover:underline"
             >
-              サポート（お問い合わせ）
+              お問い合わせ
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/apps"
+              className="text-memory-box-blue underline-offset-2 hover:underline"
+            >
+              アプリ・製品一覧
             </Link>
           </li>
         </ul>
-        <p className="mt-6 text-sm leading-relaxed text-mb-muted md:text-base">
-          {SHIFT_NOTE_TERMS_NOTE}
-        </p>
       </section>
     </AppPageLayout>
   );

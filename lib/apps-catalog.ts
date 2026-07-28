@@ -79,6 +79,8 @@ export const APPS_CATALOG: AppCatalogEntry[] = [
 
 export const SHIFT_NOTE_PRIVACY_UPDATED_AT = "2026年7月29日";
 
+export const SHIFT_NOTE_TERMS_UPDATED_AT = "2026年7月29日";
+
 export const SHIFT_NOTE_APP = APPS_CATALOG.find(
   (app) => app.slug === "shift-note",
 )!;
