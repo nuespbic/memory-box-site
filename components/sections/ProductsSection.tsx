@@ -23,6 +23,7 @@ export function ProductsSection() {
             description={product.description}
             image={product.image}
             comingSoon={product.comingSoon}
+            comingSoonLabel={"comingSoonLabel" in product ? product.comingSoonLabel : undefined}
             index={index}
           />
         ))}

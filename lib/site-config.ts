@@ -44,11 +44,12 @@ export const PRODUCTS = [
     comingSoon: true,
   },
   {
-    name: "Shift",
+    name: "シフトノート",
     tagline: "シンプルなシフト管理",
     description: "希望の回収から確認まで、迷わず管理。",
     image: "/images/products/shift.svg",
     comingSoon: true,
+    comingSoonLabel: "近日公開",
   },
 ] as const;
 
@@ -107,7 +108,7 @@ export const DAY_STORY = [
 ] as const;
 
 export const PROMISES = [
-  "広告で邪魔しません",
+  "必要以上の広告で、操作を邪魔しません",
   "あなたのデータを売りません",
   "必要以上に個人情報を集めません",
   "記録は、あなたのものです",

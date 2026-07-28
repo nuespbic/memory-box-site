@@ -7,6 +7,7 @@ type ProductCardProps = {
   description: string;
   image: string;
   comingSoon?: boolean;
+  comingSoonLabel?: string;
   index?: number;
 };
 
@@ -16,6 +17,7 @@ export function ProductCard({
   description,
   image,
   comingSoon = false,
+  comingSoonLabel = "Coming Soon",
   index = 0,
 }: ProductCardProps) {
   return (
@@ -37,7 +39,7 @@ export function ProductCard({
             </h3>
             {comingSoon && (
               <span className="shrink-0 rounded-full border border-mb-border px-3 py-1 text-xs text-mb-muted">
-                Coming Soon
+                {comingSoonLabel}
               </span>
             )}
           </div>
