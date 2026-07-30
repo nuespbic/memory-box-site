@@ -116,7 +116,7 @@ export default function FamilyCalendarPrivacyPage() {
 
       <LegalSection title="7. App内課金">
         <ul className="list-disc space-y-2 pl-5">
-          <li>広告削除は680円の買い切りです。</li>
+          <li>広告削除は600円の買い切りです。</li>
           <li>サブスクリプションではなく、自動更新はありません。</li>
           <li>Apple の App 内課金（StoreKit）を使用します。</li>
           <li>購入、決済、返金等は Apple が処理します。</li>

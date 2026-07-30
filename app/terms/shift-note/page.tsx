@@ -68,7 +68,7 @@ export default function ShiftNoteTermsPage() {
       <LegalSection title="第4条（Premium）">
         <ul className="list-disc space-y-2 pl-5">
           <li>Premiumは、自動更新サブスクリプションです。</li>
-          <li>月額料金は680円です。</li>
+          <li>月額料金は700円です。</li>
           <li>
             購入、更新、解約および返金は、AppleのApp Storeを通じて処理されます。
             返金の可否や条件については、Appleの規約および手続きに従います。

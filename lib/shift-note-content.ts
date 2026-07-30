@@ -20,7 +20,7 @@ export type ShiftNoteFeature = {
   note?: string;
 };
 
-export const SHIFT_NOTE_PREMIUM_PRICE = "月額680円";
+export const SHIFT_NOTE_PREMIUM_PRICE = "月額700円";
 
 export const SHIFT_NOTE_FREE_FEATURES = [
   "広告あり",

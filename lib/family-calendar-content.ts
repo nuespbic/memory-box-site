@@ -30,7 +30,7 @@ export const FAMILY_CALENDAR_FREE_FEATURES = [
 ] as const;
 
 export const FAMILY_CALENDAR_REMOVE_ADS = {
-  price: "680円",
+  price: "600円",
   type: "買い切り",
   notes: [
     "サブスクリプションではない",

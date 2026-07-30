@@ -60,7 +60,7 @@ export default function FamilyCalendarTermsPage() {
 
       <LegalSection title="第4条（広告削除購入）">
         <ul className="list-disc space-y-2 pl-5">
-          <li>広告削除は680円の買い切りです。</li>
+          <li>広告削除は600円の買い切りです。</li>
           <li>サブスクリプションではなく、自動更新はありません。</li>
           <li>Apple の App 内課金を利用します。</li>
           <li>購入、返金、復元等は Apple の規定に従います。</li>
